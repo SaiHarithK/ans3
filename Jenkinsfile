@@ -11,7 +11,7 @@ maven 'Maven' // Ensure this matches the name configured in Jenkins
 stages {
 stage('Checkout') {
 steps {
-git branch: 'master', url: 'https://github.com/SaiHarithK/ans3.git'
+git branch: 'main', url: 'https://github.com/SaiHarithK/ans3.git'
 }
 }
 stage('Build') {
